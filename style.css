@@ -77,13 +77,12 @@ main{
   }
 
 .search-form{
-    background: rgba(255, 255, 255, 0.479);
+    background: #ffffff47;
     width: 330px;
     height: 500px;
     border-radius: 15px;
     padding: 25px 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
-    opacity: 0.8;
 }
 
 .input-search{
