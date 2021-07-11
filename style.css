@@ -77,7 +77,7 @@ main{
   }
 
 .search-form{
-    background: white;
+    background: rgba(255, 255, 255, 0.479);
     width: 330px;
     height: 500px;
     border-radius: 15px;
