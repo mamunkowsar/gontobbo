@@ -2,12 +2,10 @@ html, body{
     font-family: poppins;
 }
 body{
-    margin: 0 auto;
-    width: 1280px;
     height: 800px;
     background-image: url(images/body-img.jpg);
     background-size: cover;
-    position: relative;
+    
    
     
     
@@ -15,6 +13,7 @@ body{
 }
 
 .landing-page{
+  margin: 0 auto;
     width: 1280px;
     height: 800px;
     background-image: url(images/bg-image.jpg);
@@ -23,6 +22,7 @@ body{
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
+    overflow: hidden;
 
 }
 /* navigation */
@@ -144,7 +144,6 @@ main{
 }
 
 /* animation  */
-.star-box{}
 /* html {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
@@ -161,7 +160,7 @@ main{
   #stars:after {
     content: " ";
     position: absolute;
-    /* top: 2000px; */
+    top: 2000px;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -178,7 +177,7 @@ main{
   #stars2:after {
     content: " ";
     position: absolute;
-    /* top: 2000px; */
+    top: 2000px;
     width: 2px;
     height: 2px;
     background: transparent;
@@ -195,7 +194,7 @@ main{
   #stars3:after {
     content: " ";
     position: absolute;
-    /* top: 2000px; */
+    top: 2000px;
     width: 3px;
     height: 3px;
     background: transparent;
